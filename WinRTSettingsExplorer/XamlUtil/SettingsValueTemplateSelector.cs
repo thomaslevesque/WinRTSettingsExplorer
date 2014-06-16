@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Markup;
@@ -20,7 +21,8 @@ namespace WinRTSettingsExplorer.XamlUtil
             var v = item as SettingsValueViewModel;
             if (v != null)
             {
-                object value = v.Value;
+                Debug.WriteLine("SelectTemplate: " + v.Name);
+                object value = v.DisplayValue;
                 if (value != null)
                 {
                     Type type = value.GetType();

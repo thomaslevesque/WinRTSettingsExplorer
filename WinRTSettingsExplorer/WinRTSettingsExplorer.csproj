@@ -54,8 +54,6 @@
     <Compile Include="CompositeValueWindow.xaml.cs">
       <DependentUpon>CompositeValueWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Model\SettingsContainer.cs" />
-    <Compile Include="Model\SettingsItem.cs" />
     <Compile Include="Properties\Annotations.cs" />
     <Compile Include="ValueEditorWindow.xaml.cs">
       <DependentUpon>ValueEditorWindow.xaml</DependentUpon>
@@ -64,7 +62,6 @@
     <Compile Include="ViewModel\MainWindowViewModel.cs" />
     <Compile Include="ViewModel\ObservableBase.cs" />
     <Compile Include="ViewModel\PackageViewModel.cs" />
-    <Compile Include="ViewModel\RegistryInterop.cs" />
     <Compile Include="ViewModel\SettingsContainerViewModel.cs" />
     <Compile Include="ViewModel\SettingsValueViewModel.cs" />
     <Compile Include="XamlUtil\SettingsValueTemplateSelector.cs" />
